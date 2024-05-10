@@ -1,6 +1,6 @@
 a = int(input("Digite o primeiro número: "))
-opcao = int(input("Digite a operação desejada: "))
-b = int(input("Digite o 2º número"))
+opcao = (input("Digite a operação desejada: "))
+b = int(input("Digite o 2º número: 6"))
 
 match (opcao):
    case "+": 
