@@ -12,26 +12,20 @@ media = soma / 2
 produto = numUm * numDois
 os.system("cls || clear")
 
-if numUm > numDois:
-    maior = numUm
-    
-else: 
-    maior = numDois
-
-if numUm < numDois:
-    menor = numUm
-
-else:
-    menor = numDois    
-
-    
+maior = max(numUm, numDois)
+menor = min (numUm, numDois)
 
 
 print("Média: {}".format(media))
 print("Soma: {}".format(soma))
 print("Produto: {}".format(produto))
-print("Maior Valor: {}".format(maior))
-print("Menor Valor: {}".format(menor))
+
+
+if numUm == numDois:
+    print ("Os números são iguais!")
+else:
+    print("Maior Valor: {}".format(maior))
+    print("Menor Valor: {}".format(menor))
 
 
 
